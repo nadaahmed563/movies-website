@@ -1,0 +1,188 @@
+/* home section start */
+#home
+{
+    background-color:black ;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#home input
+{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    border-radius: 0;
+    text-align: center;
+    color: white;
+}
+#home input:focus 
+{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    border-radius: 0;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+    outline-offset: 0;
+}
+#home input:focus-visible
+{
+    outline-offset: 0px;
+}
+/* end home section */
+/* start movies section */
+
+#movies .item
+{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+#movies .layer
+{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    background-color: rgba(255,255,255,.7) ;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: black;
+    transition: all 1s;
+
+}
+#movies .item
+{
+    overflow: hidden;
+}
+#movies .item:hover .layer
+{
+    cursor: pointer;
+    top: 0;
+    transition: all 1s;
+    
+}
+
+
+/* end movies section */
+/* start contact section */
+#Contact
+{
+    height: 100%;
+    padding-bottom: 50px;
+}
+#Contact .form-input
+{
+    margin-bottom: 1rem;
+}
+#Contact .form-input input
+{
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    font-weight: 400;
+}
+/* end contact section */
+
+/* start section side nav */
+#sideNav .nav
+{
+    background-color: #f8f6f6;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 100vh;
+    z-index: 555555;
+}
+#sideNav .logo
+{
+    padding: 25px 0;
+    padding-left: 15px;
+}
+#sideNav .logo img
+{
+    height: 48px;
+}
+#sideNav .open-menu
+{
+    position: absolute;
+    top: 47%;
+    left: 30%;
+    cursor: pointer;
+}
+#sideNav .open-menu i
+{
+    font-size: 25px;
+}
+#sideNav .icons
+{
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 11;
+}
+#sideNav .icons i
+{
+    display: block;
+    padding-top: 15px;
+}
+#sideNav .insideNav
+{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100vh;
+    z-index: 55555;
+
+}
+#sideNav .insideNav .elements li a
+{
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    color: #ccc;
+    font-size: 16px;
+}
+#sideNav .insideNav .elements li a:hover
+{
+    color: #ff655c;
+    transition: all 0.3s;
+}
+#sideNav .insideNav .elements li
+{
+    padding-top: 25px;
+    opacity: 0;
+    padding-top: 500px;
+    cursor: pointer;
+}
+#sideNav .insideNav .elements ul
+{
+    padding-left: 30px;
+}
+#sideNav .nav-icons
+{
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+}
+#sideNav .nav-icons a
+{
+    color: #f9f6f6;
+    padding-left: 15px;
+    font-size: 14px;
+
+}
+#sideNav .nav-icons a:hover
+{
+    color: #ff655c;
+    transition: all 0.3s;
+
+}
+
+#sideNav .nav-icons span
+{
+    color: #777;
+}
+/* end section side nav */

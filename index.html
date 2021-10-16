@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- start side Nav section -->
+
+    <section id="sideNav">
+
+        <div class="nav">
+
+            <div class="logo">
+                <img src="images/logo.png" alt="" srcset="">
+            </div>
+            <div class="open-menu">
+                <i class="fas fa-align-justify" id="openandCloseMenu"></i>
+            </div>
+            <div class="icons">
+                <i class="fas fa-globe"></i>
+                <i class="fas fa-share-alt"></i>
+            </div>
+            
+
+        </div>
+
+        <div class="insideNav">
+
+            <div class="elements">
+                <ul class="list-unstyled text-decoration-none">
+                    <li class="element element1"><a href="#">Now Playing</a></li>
+                    <li class="element element2"><a href="#">Popular</a></li>
+                    <li class="element element3"><a href="#">Top Rated</a></li>
+                    <li class="element element4"><a href="#">Trending</a></li>
+                    <li class="element element5"><a href="#">Upcoming</a></li>
+                    <li class="element element6"><a href="#Contact">Contact Us</a></li>
+
+                </ul>
+            </div>
+            <div class="nav-icons">
+                <a href="#"><i class="fab fa-facebook-f "></i></a>
+                <a href="#"><i class="fab fa-twitter "></i></a>
+                <a href="#"><i class="fas fa-globe "></i></a>
+
+                <div class="pt-3">
+                    <span>Copyright Â© 2019 All Rights Reserved.</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- End Side Nav Section -->
+<!-- start home section -->
+    <section id="home">
+
+        <div class="container w-75 pt-5">
+
+            <div class="row pt-5">
+                <div class="col-md-6">
+                    <input type="text" class="form-control mb-5" placeholder="get movies by word..." id="allMovies">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="form-control mb-5" placeholder="search..." id="ByWord">
+                </div>
+            </div>
+
+        </div>
+        
+    
+<!-- end home section -->
+
+<!-- start movies section -->
+
+<section id="movies">
+    <div class="container text-center my-1 py-2 w-75">
+        <div class="row" id="postsRow">
+
+            
+        </div>
+    </div>
+
+</section>
+
+<!-- end movies section -->
+
+<section id="Contact">
+
+    <div class="container w-75">
+
+        <h2 class="text-white my-5">Contact Us...</h2>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-input">
+                    <input type="text" class="form-control" placeholder="Enter Your Name" id="name">
+                    <p id="nameAlert" class="alert alert-danger d-none"> Your Name is not Valid </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-input">
+                    <input type="email" class="form-control" placeholder="Enter Your Email" id="email">
+                    <p id="emailAlert" class="alert alert-danger d-none"> Your Email is not Valid </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-input">
+                    <input type="number" class="form-control" placeholder="Enter Phone" id="number">
+                    <p id="numberAlert" class="alert alert-danger d-none"> Your Number is not Valid </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-input">
+                    <input type="number" class="form-control" placeholder="Enter Age" id="age">
+                    <p id="ageAlert" class="alert alert-danger d-none"> Your Age is not Valid </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-input">
+                    <input type="password" class="form-control" placeholder="Enter Password" id="password">
+                    <p id="passwordAlert" class="alert alert-danger d-none"> Your Password is not Valid (Minimum 8 characters or Numbers or Both) </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-input">
+                    <input type="password" class="form-control" placeholder="Enter RePassword" id="repassword">
+                    <p id="repasswordAlert" class="alert alert-danger d-none"> Enter Valid Repassword</p>
+                </div>
+            </div>
+
+        </div>
+
+        <button type="submit" disabled id="submitBtn" class="btn btn-outline-danger mb-5">Submit</button>
+
+    </div>
+
+</section>
+
+
+    </section>
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
